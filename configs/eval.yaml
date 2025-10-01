@@ -1,0 +1,7 @@
+model_path: ./benchmarks/ckpts/stage2
+relay_ratio: 0.02
+omega: 0.3
+tau: 0.8
+alpha_mid: 0.2
+alpha_deep: 0.1
+use_keynorm: true

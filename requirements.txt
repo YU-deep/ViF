@@ -1,0 +1,14 @@
+torch>=2.2.0
+torchvision>=0.17.0
+transformers>=4.44.0
+accelerate>=0.33.0
+datasets>=2.20.0
+peft>=0.12.0
+bitsandbytes>=0.43.0
+opencv-python>=4.9.0.80
+pillow>=10.4.0
+pyyaml>=6.0.2
+tqdm>=4.66.4
+decord>=0.6.0
+einops>=0.8.0
+numpy>=1.26.4
