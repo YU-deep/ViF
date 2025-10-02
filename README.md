@@ -1,7 +1,10 @@
-# Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow
+# ViF
+Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow
 
 
-## 🌟Quick Start
+<a href='https://www.arxiv.org/abs/2509.21789'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+
+## 📑Quick Start
 
 ### 1) Install
 ```bash
@@ -34,7 +37,7 @@ python scripts/eval_demo.py --config configs/eval.yaml --images_dir examples/dat
 ```
 
 
-## 🌟Requisite Analyses
+## 📜Requisite Analyses
 ### Layer-Wise Attention Allocation in Different Agent Turns
 <div style="text-align: center;">
   <img src="static/fig2.png" alt="fig2" width="600">
@@ -53,7 +56,7 @@ python scripts/eval_demo.py --config configs/eval.yaml --images_dir examples/dat
   <img src="static/fig4.png" alt="fig4" width="600">
 </div>
 <div style="text-align: center;">
-  <img src="static/fig5.png" alt="fig5" width="350">
+  <img src="static/fig5.png" alt="fig5" width="400">
 </div>
 
 ### Insights
@@ -61,8 +64,30 @@ python scripts/eval_demo.py --config configs/eval.yaml --images_dir examples/dat
 - When the agent turns increase, the average attention allocated to vision tokens reduces, and the attention peak in middle layers diminishes, while attention to instruction tokens increases accordingly; system and output tokens receive relatively stable attention. 
 - In middle layers, vision tokens with unimodal attention allocation relay visual information; all vision tokens are significant in shallow layers and less significant in deep layers.
 
-## 🌟Overview
+## 🌟🌟🌟ViF
 
 <div style="text-align: center;">
   <img src="static/fig6.png" alt="fig6" width="800">
+</div>
+
+
+## 🔥🔥🔥Results
+### Results on Six Base Models and Four MAS Structures
+<div style="text-align: center;">
+  <img src="static/tab2.png" alt="table2" width="800">
+</div>
+
+### Results on Larger Base Models
+<div style="text-align: center;">
+  <img src="static/tab3.png" alt="table3" width="800">
+</div>
+
+### Results on Multi-Agent Hallucination Snowballing Mitigation
+<div style="text-align: center;">
+  <img src="static/tab4.png" alt="table4" width="300">
+</div>
+
+### Comparison Results
+<div style="text-align: center;">
+  <img src="static/tab5.png" alt="table5" width="750">
 </div>
