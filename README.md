@@ -56,6 +56,11 @@ python scripts/eval_demo.py --config configs/eval.yaml --images_dir examples/dat
   <img src="static/fig5.png" alt="fig5" width="350">
 </div>
 
+### Insights
+- The visual evidence relayed in MAS, which is typically via textual flow, potentially results in multi-agent hallucination snowballing. 
+- When the agent turns increase, the average attention allocated to vision tokens reduces, and the attention peak in middle layers diminishes, while attention to instruction tokens increases accordingly; system and output tokens receive relatively stable attention. 
+- In middle layers, vision tokens with unimodal attention allocation relay visual information; all vision tokens are significant in shallow layers and less significant in deep layers.
+
 ## 🌟Overview
 
 <div style="text-align: center;">
