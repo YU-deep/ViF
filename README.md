@@ -1,7 +1,5 @@
 # Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow
 
-## The implementation source code will be completely available after acceptance.
-
 
 ## 🌟Quick Start
 
