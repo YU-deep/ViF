@@ -16,7 +16,7 @@ pip install -r requirements.txt
   - Stage 1: general pretraining/tuning data (image, instruction, short answer) – paths in `configs/stage1.yaml`
   - Stage 2: instruction-tuning datasets – paths in `configs/stage2.yaml`
 - Multi-Agent Construction
-  - Files under `vif/multiagent/` implement the **meta-agent** and ** worker agents** with dynamic allocation.
+  - Files under `vif/multiagent/` implement the worker agents with dynamic allocation.
 
 
 ### 3) Train
