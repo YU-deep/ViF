@@ -91,3 +91,14 @@ python scripts/eval_demo.py --config configs/eval.yaml --images_dir examples/dat
 <div style="text-align: center;">
   <img src="static/tab5.png" alt="table5" width="750">
 </div>
+
+
+## 🔗 Citation
+```bibtex
+@article{yu2025visual,
+  title={Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow},
+  author={Yu, Xinlei and Xu, Chengming and Zhang, Guibin and He, Yongbo and Chen, Zhangquan and Xue, Zhucun and Zhang, Jiangning and Liao, Yue and Hu, Xiaobin and Jiang, Yu-Gang and others},
+  journal={arXiv preprint arXiv:2509.21789},
+  year={2025}
+}
+```
