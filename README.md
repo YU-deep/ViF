@@ -79,7 +79,7 @@ python scripts/eval_demo.py --config configs/eval.yaml --images_dir examples/dat
 
 ### Results on Larger Base Models
 <div style="text-align: center;">
-  <img src="static/tab3.png" alt="table3" width="800">
+  <img src="static/tab3.png" alt="table3" width="600">
 </div>
 
 ### Results on Multi-Agent Hallucination Snowballing Mitigation
